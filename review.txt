@@ -1,0 +1,7 @@
+Varibale declaration should never be x, y, u
+Proper casing should be maintained: camel case
+avoid jupyter notebooks
+Try to make multiple functions and use them in another function and in another .py file
+Research on the ways to find multiple methods to solve problem
+Length of eacvh line in code should be limited
+Comments and declarationa should be maintained
