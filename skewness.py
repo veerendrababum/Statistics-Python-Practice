@@ -11,8 +11,8 @@ Multiple approaches to find skewness/outliers
     :Method 1: Z score
     :Method 2: box plot
     :Method 3: std
-    :Method 4:
-    :Method 5:
+    :Method 4: Gaussian 
+    :Method 5: IQR
 '''
 
 import scipy.stats
