@@ -83,7 +83,7 @@ def remove_outliers_barplots(random_sample):
 
     # Lets return the output list
     report = {
-        'initial_list':random_sample,
+        'initial_list': random_sample,
         'outliers': outliers,
         'list_after_removing_outliers': final_random_sample_without_outliers,
         'skewness_before_removing_outliers': skewness_before_removing_outliers,
