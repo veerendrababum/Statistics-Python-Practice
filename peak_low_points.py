@@ -53,6 +53,6 @@ def find_peak_low_points(random_sample):
     return report
 
 
-sample_data = np.random.choice(10000, 10)
+sample_data = np.random.choice(10000, 100)
 result = find_peak_low_points(sample_data)
 print(result)
