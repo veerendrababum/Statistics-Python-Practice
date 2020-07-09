@@ -1,3 +1,10 @@
+__author__ = 'Veerendra'
+__date__ = '08-July-2020'
+
+'''
+The goal is to identify and return the peak and valley values of an random sample
+'''
+
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import find_peaks
@@ -46,6 +53,6 @@ def find_peak_low_points(random_sample):
     return report
 
 
-sample_data = np.random.choice(10000, 100)
+sample_data = np.random.choice(10000, 10)
 result = find_peak_low_points(sample_data)
 print(result)
