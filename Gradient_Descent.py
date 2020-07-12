@@ -1,7 +1,7 @@
 __author__ = 'Veerendra'
 __date__ = '12/July/2020'
 '''
-Lets explore the Gradient Descent and using the algorithm lets find out the parameters of the equation that reduce the 
+Lets explore the Gradient Descent and using the algorithm let's find out the parameters of the equation that reduce the 
 cost function
 '''
 import numpy as np
