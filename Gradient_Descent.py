@@ -35,9 +35,7 @@ def gradient_descent(X, y, theta, learning_rate, iterations):
     for i in range(iterations):
         predictions = x_a.dot(theta)
         error = predictions - y
-        square_error = np.square(error)
-        sum_square_error = np.sum(square_error)
-        cost = sum_square_error * 1 / (2*m)
+        cost = np.sum(np.square(error)) * 1 / (2*m)
         cost_history.append(cost)
         theta = theta - (learning_rate * 1 / m) * x_a.T.dot(predictions - y)
         theta_history.append(theta)
