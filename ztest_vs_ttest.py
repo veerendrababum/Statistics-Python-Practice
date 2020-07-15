@@ -15,7 +15,7 @@ import scipy
 import scipy.stats
 
 
-class ztestVsttest():
+class ztestVsttest:
     def __init__(self, random_sample):
         self.random_sample = random_sample
         self.output = {}
