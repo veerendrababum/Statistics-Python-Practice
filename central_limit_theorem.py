@@ -47,4 +47,5 @@ def central_limit_theorem(sample_size, iterations):
     return report
 
 
-print(central_limit_theorem(60, 500))
+output = central_limit_theorem(60, 1000)
+print(output)
