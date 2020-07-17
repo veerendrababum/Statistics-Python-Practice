@@ -2,7 +2,7 @@ __author__ = 'Veerendra'
 __Date__ = '16-July-2020'
 
 """
-Lets explore the power of centre limit theorem- No matter what the population distribution is, the sample means of 
+Lets explore the power of central limit theorem- No matter what the population distribution is, the sample means of 
 sample distribution will reach out to the normal distribution when the selected samples size is sufficient(n>30)
 """
 
@@ -10,7 +10,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-def center_limit_theorem(sample_size, iterations):
+def central_limit_theorem(sample_size, iterations):
     # Lets takes the original distribution
     original_dist = np.random.choice(10000, 1000)
 
@@ -47,4 +47,4 @@ def center_limit_theorem(sample_size, iterations):
     return report
 
 
-print(center_limit_theorem(60, 500))
+print(central_limit_theorem(60, 500))
